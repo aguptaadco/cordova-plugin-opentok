@@ -28,11 +28,24 @@
  */
 @interface OTPublisher : OTPublisherKit
 
+/** @name Displaying the video */
+
 /**
  * The view for this publisher. If this view becomes visible, it will
  * display a preview of the active camera feed.
  */
 @property(readonly) UIView* view;
+
+/**
+* The scaling of the rendered video, as defined by the
+* <OTVideoViewScaleBehavior> enum. The default value is
+* OTVideoViewScaleBehaviorFit. Set it to OTVideoViewScaleBehaviorFill to
+* have the video shrink, as needed, so that the entire video is visible
+* (with pillarboxing). This property only affects the local publisher's
+* video. Subscribers to the stream must set the
+* <[OTSubscriber viewScaleBehavior]> property.
+*/
+@property(nonatomic) OTVideoViewScaleBehavior viewScaleBehavior;
 
 /** @name Setting publisher device configuration */
 

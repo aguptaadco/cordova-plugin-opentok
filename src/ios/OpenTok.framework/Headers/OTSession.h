@@ -299,6 +299,18 @@ __attribute__((deprecated("use unsubscribe:error: instead")));
             connection:(OTConnection*)connection
                  error:(OTError**)error;
 
+
+/**
+ * Report that your app experienced an issue. You can use the issue ID with the
+ * <a href="https://tokbox.com/developer/tools/Inspector">Inspector</a> or when
+ * discussing an issue with the TokBox support team.
+ *
+ * @param issueId A pointer to a string that will be set the unique identifier
+ * for the reported issue. If the call to the method fails (for example, because
+ * of no network connection), this value is set to nil.
+ */
+- (void)reportIssue:(NSString**)issueId;
+
 @end
 
 /**

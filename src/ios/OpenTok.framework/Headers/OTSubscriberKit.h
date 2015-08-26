@@ -145,10 +145,16 @@ id<OTSubscriberKitAudioLevelDelegate> audioLevelDelegate;
  * The OpenTok iOS SDK supports a limited number of simultaneous audio-video
  * streams in an app:
  *
- * - On iPad 2 and iPad 3, the limit is four streams. An app can have up to four
- *   simultaneous subscribers, or one publisher and up to three subscribers.
- * - On all other supported iOS devices, the limit is two streams. An app can
+ * - In a relayed session, the limit is two streams. An app can
  *   have up to two subscribers, or one publisher and one subscriber.
+ *
+ * - In a routed session, an app can support one audio-video publisher,
+ *   one audio-video subscriber, and up to three additional subscribed audio-only
+ *   streams simultaneously.
+ *
+ * (For information on relayed and routed sessions see the documentation on the
+ * [media mode](http://tokbox.com/opentok/tutorials/create-session/#media-mode)
+ * of a session.)
  *
  * Initializing a subscriber causes it to start streaming data from the OpenTok
  * server, regardless of whether the view of the subscriber object is added to a

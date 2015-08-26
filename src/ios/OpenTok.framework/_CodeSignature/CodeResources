@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/OTConnection.h</key>
 		<data>
-		AbLC0Sppvffb79HM4rrtwRWnMXc=
+		Qn99FuCLXjdzQplmTBniBu9k+No=
 		</data>
 		<key>Headers/OTError.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/OTPublisher.h</key>
 		<data>
-		TscF754tduTLAmJ5WBfIqR1ON5Y=
+		/HHaziRnitfNH6+0VXdywoilY/k=
 		</data>
 		<key>Headers/OTPublisherKit.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/OTSession.h</key>
 		<data>
-		9T0pFAP+hbCcOWXSQq8/3YeWOrY=
+		QTedVbjCfpbdkCAATsVy5SbO+Eo=
 		</data>
 		<key>Headers/OTStream.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/OTSubscriber.h</key>
 		<data>
-		PGln5MxDwgA3uD1mPBteDPnR5sk=
+		ocO/5WCu72WknzOINKZZ23MXOPU=
 		</data>
 		<key>Headers/OTSubscriberKit.h</key>
 		<data>
-		VKl18t51Xb5R2VgJFSkGclUmTZw=
+		s+Po+xg2l5C8VZHNn/kl0GanT8Y=
 		</data>
 		<key>Headers/OTVideoKit.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/OpenTok.h</key>
 		<data>
-		nscBRsIxTQhw0eiWQCs7ZNtIJAU=
+		pdJBPUQ11w5eZRmn6HDUENihKFs=
 		</data>
 		<key>Headers/OpenTokObjC.h</key>
 		<data>
@@ -54,15 +54,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rWFjMtAmdeszX17X05WQOCYpjzQ=
+		2S95In7M1I4v2jfElSm5FSelBYk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		vrAb3982+vEYt32xB9mf0Ka9lTc=
 		</data>
+		<key>PrivateHeaders/OTNetworkDeviceManagement.h</key>
+		<data>
+		VznfNJjievgwbli93f9XFhGDM/U=
+		</data>
+		<key>PrivateHeaders/OTNetworkReachabilityMonitor.h</key>
+		<data>
+		2AP7K3eNMi/9uUNzwCewZA4ulXk=
+		</data>
 		<key>PrivateHeaders/OTNetworkStatsKit.h</key>
 		<data>
-		QyMIWE1gh0Q9n9JmedNp7uQceIo=
+		XuHzC6ViGDirNWM16Xv6WXVxuH4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -73,7 +81,7 @@
 		</data>
 		<key>Headers/OTConnection.h</key>
 		<data>
-		AbLC0Sppvffb79HM4rrtwRWnMXc=
+		Qn99FuCLXjdzQplmTBniBu9k+No=
 		</data>
 		<key>Headers/OTError.h</key>
 		<data>
@@ -81,7 +89,7 @@
 		</data>
 		<key>Headers/OTPublisher.h</key>
 		<data>
-		TscF754tduTLAmJ5WBfIqR1ON5Y=
+		/HHaziRnitfNH6+0VXdywoilY/k=
 		</data>
 		<key>Headers/OTPublisherKit.h</key>
 		<data>
@@ -89,7 +97,7 @@
 		</data>
 		<key>Headers/OTSession.h</key>
 		<data>
-		9T0pFAP+hbCcOWXSQq8/3YeWOrY=
+		QTedVbjCfpbdkCAATsVy5SbO+Eo=
 		</data>
 		<key>Headers/OTStream.h</key>
 		<data>
@@ -97,11 +105,11 @@
 		</data>
 		<key>Headers/OTSubscriber.h</key>
 		<data>
-		PGln5MxDwgA3uD1mPBteDPnR5sk=
+		ocO/5WCu72WknzOINKZZ23MXOPU=
 		</data>
 		<key>Headers/OTSubscriberKit.h</key>
 		<data>
-		VKl18t51Xb5R2VgJFSkGclUmTZw=
+		s+Po+xg2l5C8VZHNn/kl0GanT8Y=
 		</data>
 		<key>Headers/OTVideoKit.h</key>
 		<data>
@@ -109,7 +117,7 @@
 		</data>
 		<key>Headers/OpenTok.h</key>
 		<data>
-		nscBRsIxTQhw0eiWQCs7ZNtIJAU=
+		pdJBPUQ11w5eZRmn6HDUENihKFs=
 		</data>
 		<key>Headers/OpenTokObjC.h</key>
 		<data>
@@ -119,9 +127,17 @@
 		<data>
 		vrAb3982+vEYt32xB9mf0Ka9lTc=
 		</data>
+		<key>PrivateHeaders/OTNetworkDeviceManagement.h</key>
+		<data>
+		VznfNJjievgwbli93f9XFhGDM/U=
+		</data>
+		<key>PrivateHeaders/OTNetworkReachabilityMonitor.h</key>
+		<data>
+		2AP7K3eNMi/9uUNzwCewZA4ulXk=
+		</data>
 		<key>PrivateHeaders/OTNetworkStatsKit.h</key>
 		<data>
-		QyMIWE1gh0Q9n9JmedNp7uQceIo=
+		XuHzC6ViGDirNWM16Xv6WXVxuH4=
 		</data>
 	</dict>
 	<key>rules</key>

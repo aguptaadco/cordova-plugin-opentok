@@ -31,29 +31,6 @@
 
 @end
 
-@interface OTSession (NetworkStats)
-
-/**
- * Tests the network connection. Results passed to the session delegate.
- */
-- (void)testNetworkWithToken:(NSString*)token
-                       error:(OTError**)error;
-
-
-@end
-
-@protocol OTSessionDelegateNetworkStats <OTSessionDelegate>
-@optional
-/**
- * Sent after a network connection test completes.
- * NOTE - Known Issue: Packet Loss Ratio and Round Trip Time will are not
- * reported when this test is run from the simulator.
- */
-- (void)session:(OTSession*)session
-networkTestCompletedWithResult:(OTSessionNetworkStats*)result;
-@end
-
-
 /**
  * Network statistics describing the network state for this subscriber.
  */

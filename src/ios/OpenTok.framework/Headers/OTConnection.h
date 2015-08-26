@@ -26,6 +26,11 @@
  */
 @property(readonly) NSDate* creationTime;
 
+/**
+ * A string containing metadata describing the connection. You can add this
+ * connection data when you
+ * [create a token](https://tokbox.com/developer/guides/create-token/).
+ */
 @property(readonly) NSString* data;
 
 @end

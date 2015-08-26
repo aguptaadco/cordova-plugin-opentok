@@ -8,6 +8,22 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ * Defines values for the <[OTSubscriber viewScaleBehavior]> and
+ * <[OTPublisher viewScaleBehavior]> methods.
+ */
+typedef NS_ENUM(NSInteger, OTVideoViewScaleBehavior) {    /**
+     * The video scales to fill the entire area of the renderer, with cropping
+     * as needed.
+     */
+    OTVideoViewScaleBehaviorFit,
+    /**
+     * The video shrinks, as needed, so that the entire video is visible
+     * with pillarboxing.
+     */
+    OTVideoViewScaleBehaviorFill,
+};
+
 #import <OpenTok/OpenTokObjC.h>
 #import <OpenTok/OTPublisher.h>
 #import <OpenTok/OTSubscriber.h>
