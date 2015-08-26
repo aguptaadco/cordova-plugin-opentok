@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.tokbox.cordova.opentokbidf"
+    id="com.tokbox.cordova.opentokbidchatfinal"
     version="1.0.3">
 
     <name>OpenTokCordovaPlugin</name>
@@ -40,7 +40,7 @@
 
     <!-- ios -->
     <platform name="ios">
-      
+      <hook type="before_plugin_install" src="scripts/downloadiOSSDK.js" />
       <asset src="www/opentok.js" target="opentok.js" />
 
       <header-file src="src/ios/OpenTokPlugin.h" />
@@ -70,7 +70,7 @@
             <framework src="UIKit.framework" />
             <framework src="Foundation.framework" />
             <framework src="Security.framework" />
-      <framework src="CFNetwork.framework" />
+            <framework src="CFNetwork.framework" />
 
       <!-- Adopts project's config.xml to include the OpenTokPlugin and domain whitelists -->
       <config-file target="config.xml" parent="/*/plugins">
